@@ -15,11 +15,13 @@ This tutorial will guide you through completing the `User` class. You will learn
 
 ### Task 1.2: Make `email` Optional
 
+
 Some users do not have email address. Thus, we want to make this parameter optional.
 You must modify the `email` field and related methods. Utilise `Optional<String>` type.
 Remember that the constructor also needs to handle such cases. Try to use `Optional.ofNullable()`.
 Moreover, also email getter needs to be modified. Let's explore `Optional` methods, such as `.orElse()`.
 Please return a default company address if the user has no private email address.
+
 ---
 
 ### Task 1.3: Create a second Factory Method (without email)
