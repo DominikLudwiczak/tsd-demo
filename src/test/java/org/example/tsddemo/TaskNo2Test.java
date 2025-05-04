@@ -3,6 +3,7 @@ package org.example.tsddemo;
 import org.junit.jupiter.api.Test;
 
 import java.util.Collection;
+import java.util.List;
 import java.util.Set;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -15,7 +16,7 @@ class TaskNo2Test {
     private static final User USER_4 = new User("Zofia", "Passw0rd", "zofia[at]example.com", "+48598765432"); // Invalid email
     private static final User USER_5 = new User("Marek", "M@rek", "marek@example.com", "+491512345678"); // Non-Polish number
 
-    private static final Set<User> users = Set.of(
+    private static final List<User> users = List.of(
             USER_1,
             USER_2,
             USER_3,
